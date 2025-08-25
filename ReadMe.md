@@ -2,6 +2,10 @@
 
 A simple, interactive web app to test your typing speed and accuracy. Challenge yourself, improve your skills, and track your progress in real time!
 
+## Screenshot
+![Screenshot](image.png)
+
+
 ## Features
 
 - **Live Timer:** Tracks your typing duration.
