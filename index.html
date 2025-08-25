@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Typing speed test</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" href="assests/keyboard.png" type="image/png">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="heading">
+                <h1>Typing Speed Test</h1>
+                <p id="sub_heading">Test Your Speed And Accuracy</p>
+            </div>
+
+            <div class="card">
+                <div class="tools">
+                    <div class="timer">
+                        <i class="fas fa-stopwatch"></i>
+                        <p id="timerDisplay">Time: 0s</p>
+                    </div>
+                    <div class="wpm">
+                        <p id="wpm">0 WPM</p>
+                    </div>
+                    <div class="accuracy">
+                        <i class="fas fa-check"></i>
+                        <p id="accuracy">Accuracy: 100%</p>
+                    </div>
+                </div>
+                <div class="para_box">
+                    <p></p>
+                </div>
+                <div class="input_box">
+                    <textarea name="" id="typingBox" spellcheck="false" placeholder="Start typing here..." disabled></textarea>
+                </div>
+                <div class="btn">
+                    <button id="startBtn"><i class="fas fa-play"></i> Start Test</button>
+                </div>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
