@@ -2,8 +2,7 @@
 
 A simple, interactive web app to test your typing speed and accuracy. Challenge yourself, improve your skills, and track your progress in real time!
 
-## Live Link
-![https://effervescent-lolly-3bf738.netlify.app/]
+## Live Link - https://effervescent-lolly-3bf738.netlify.app/
 
 ## Screenshot
 ![Screenshot](image.png)
